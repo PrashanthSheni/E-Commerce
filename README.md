@@ -1,16 +1,74 @@
-# React + Vite
+A simple and responsive **E-Commerce web application** built using **React.js**.  
+It demonstrates product listing, search, filtering, sorting, and pagination features similar to a real online shopping platform.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
 
-Currently, two official plugins are available:
+- Search Products by title
+- Price Filtering (Min & Max price)
+- Sorting (Low to High / High to Low)
+- Pagination for better performance
+- Product listing with image, description & price
+- Responsive UI layout
+- Modular component structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Tech Stack
 
-## React Compiler
+- React.js (Functional Components)
+- JavaScript (ES6+)
+- CSS3
+- React Hooks (`useState`)
+- Component-based architecture
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+How It Works
 
-## Expanding the ESLint configuration
+1. Product data is stored in `App.js`
+2. User can:
+   - Search products using title
+   - Filter by price range
+   - Sort by price (low/high)
+3. Pagination splits products into pages (4 items per page)
+4. UI updates dynamically using React state
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+#Installation & Setup
+
+1. Clone the repository
+```bash
+git clone https://github.com/your-username/ecommerce-react-app.git
+````
+
+2. Navigate to project folder
+
+```bash
+cd ecommerce-react-app
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Run the application
+
+```bash
+npm start
+```
+
+---
+Future Improvements
+
+* 🛒 Add cart functionality
+* 🔐 User authentication (Login/Signup)
+* 💳 Payment gateway integration
+* ❤️ Wishlist feature
+* 🗄️ Backend API integration
+
+Author
+
+**Sheni Prashanth**
+© 2026 All Rights Reserved
+
+
+## ⭐ If you like this project
+
+Give it a ⭐ on GitHub and share it with others!
