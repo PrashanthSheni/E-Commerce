@@ -275,6 +275,7 @@ body {
   box-shadow: 0 12px 24px rgba(15, 23, 42, 0.08);
   border: 1px solid #f0f4f8;
   text-align: left;
+  height: min-content;
 }
 
 .product-card img {
@@ -349,3 +350,12 @@ body {
   padding: 8px 12px;
   border-radius: 6px;
 }
+.ecommerce-footer {
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  background-color: #222;
+  color: white;
+  font-size: 14px;
+}
+/* Product card size reduction */

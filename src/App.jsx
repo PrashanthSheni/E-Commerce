@@ -473,6 +473,9 @@ function App() {
           <ProductList products={paginatedProducts} />
         </main>
       </div>
+      <footer className="ecommerce-footer">
+  <p>Made by Sheni Prashanth © 2026 All Rights Reserved</p>
+</footer>
     </div>
   );
 }
