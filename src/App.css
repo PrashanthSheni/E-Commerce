@@ -338,3 +338,14 @@ body {
     font-size: 2rem;
   }
 }
+.pagination {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination .btn {
+  padding: 8px 12px;
+  border-radius: 6px;
+}
